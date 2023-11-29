@@ -159,7 +159,7 @@ To run a specific test (e.g., `printUserData`):
 npm test printUserData
 ```
 
-![image](https://github.com/sndr157/Booking.prisma/assets/127830026/4cd294ac-718a-42d0-8fd6-7a9ebf9ad50b)
+![image](https://github.com/sndr157/Booking.prisma/assets/127830026/8729455e-33f4-42db-9aeb-6685b6d5c5a8)
 
 
 
