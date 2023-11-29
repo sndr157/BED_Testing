@@ -1,0 +1,51 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "username": "newname_123",
+      "email": "user1@example.com"
+    },
+    {
+      "id": 2,
+      "username": "user2",
+      "email": "user2@example.com"
+    }
+  ],
+  "meals": [
+    {
+      "id": 1,
+      "name": "Burger",
+      "price": 10.99
+    },
+    {
+      "id": 2,
+      "name": "Pizza",
+      "price": 12.99
+    },
+    {
+      "id": 3,
+      "name": "Salad",
+      "price": 7.99
+    }
+  ],
+  "orders": [
+    {
+      "id": 1,
+      "userId": 1,
+      "mealId": 1,
+      "quantity": 2
+    },
+    {
+      "id": 2,
+      "userId": 1,
+      "mealId": 3,
+      "quantity": 1
+    },
+    {
+      "id": 3,
+      "userId": 2,
+      "mealId": 2,
+      "quantity": 3
+    }
+  ]
+}
