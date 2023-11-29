@@ -26,14 +26,15 @@ To dive into the examples, follow these steps:
 1. **Clone the Repository:**
    ```bash
    git clone https://github.com/your-username/js-unit-testing-examples.git
+   ```
 
-
-```markdown
+````markdown
 # JS Unit Testing Examples
 
 An example project for writing tests in JavaScript.
 
 ## Table of Contents
+
 - [Setup](#setup)
 - [Package Information](#package-information)
 - [API Functions](#api-functions)
@@ -52,6 +53,7 @@ To set up the project, run the following commands:
 npm install -D jest
 npm install -D newman
 ```
+````
 
 ## Package Information
 
@@ -64,9 +66,7 @@ npm install -D newman
   "description": "An example project for writing tests in JavaScript.",
   "main": "index.js",
   "type": "module",
-  "_moduleDirectories": [
-    "src"
-  ],
+  "_moduleDirectories": ["src"],
   "scripts": {
     "test": "vitest",
     "test:api": "newman run https://api.postman.com/collections/17255397-01f71f02-5d6b-4096-bbdc-86ba8c6d3f5d?access_key=PMAT-01HA1DMFGWQ9TK077ZFVT9DHGM --env-var \"baseUrl=http://localhost:3000\""
@@ -151,8 +151,6 @@ npm test
 
 ![image](https://github.com/sndr157/BED_Testing/assets/127830026/ba9f92e8-5c97-413f-9768-c466d3c43f6f)
 
-
-
 To run a specific test (e.g., `printUserData`):
 
 ```bash
@@ -160,8 +158,6 @@ npm test printUserData
 ```
 
 ![image](https://github.com/sndr157/Booking.prisma/assets/127830026/8729455e-33f4-42db-9aeb-6685b6d5c5a8)
-
-
 
 ### API Testing
 
@@ -189,3 +185,7 @@ import { describe, it, expect } from "vitest";
 
 // Your unit tests for the add function
 ```
+
+### Structure
+
+![Alt text](image-2.png)
