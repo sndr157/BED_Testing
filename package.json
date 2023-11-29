@@ -1,0 +1,23 @@
+{
+  "name": "js-unit-testing-examples",
+  "version": "1.0.0",
+  "description": "An example project for writing tests in JavaScript. ",
+  "main": "index.js",
+  "type": "module",
+  "_moduleDirectories": [
+    "src"
+  ],
+  "scripts": {
+    "test": "vitest",
+    "test:api": "newman run https://api.postman.com/collections/17255397-01f71f02-5d6b-4096-bbdc-86ba8c6d3f5d?access_key=PMAT-01HA1DMFGWQ9TK077ZFVT9DHGM --env-var \"baseUrl=http://localhost:3000\""
+  },
+  "author": "Kristof Siket",
+  "license": "ISC",
+  "devDependencies": {
+    "newman": "^5.3.2",
+    "vitest": "^0.34.3"
+  },
+  "dependencies": {
+    "axios": "^1.5.0"
+  }
+}
