@@ -149,11 +149,19 @@ To run unit tests:
 npm test
 ```
 
+![image](https://github.com/sndr157/BED_Testing/assets/127830026/ba9f92e8-5c97-413f-9768-c466d3c43f6f)
+
+
+
 To run a specific test (e.g., `printUserData`):
 
 ```bash
 npm test printUserData
 ```
+
+![image](https://github.com/sndr157/Booking.prisma/assets/127830026/8729455e-33f4-42db-9aeb-6685b6d5c5a8)
+
+
 
 ### API Testing
 
