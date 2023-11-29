@@ -188,4 +188,4 @@ import { describe, it, expect } from "vitest";
 
 ### Structure
 
-![Alt text](image-2.png)
+![image](https://github.com/sndr157/BED_Testing/assets/127830026/740af84b-e942-4c27-a00b-2801f2f2d177)
