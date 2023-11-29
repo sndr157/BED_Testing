@@ -159,6 +159,10 @@ To run a specific test (e.g., `printUserData`):
 npm test printUserData
 ```
 
+![image](https://github.com/sndr157/Booking.prisma/assets/127830026/4cd294ac-718a-42d0-8fd6-7a9ebf9ad50b)
+
+
+
 ### API Testing
 
 To run API tests using Newman:
