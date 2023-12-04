@@ -9,7 +9,7 @@
   ],
   "scripts": {
     "test": "vitest",
-    "test:api": "newman run https://api.postman.com/collections/17255397-01f71f02-5d6b-4096-bbdc-86ba8c6d3f5d?access_key=PMAT-01HA1DMFGWQ9TK077ZFVT9DHGM --env-var \"baseUrl=http://localhost:3000\""
+    "test:api": "newman run https://api.postman.com/collections/28127632-db55ef3c-2d8e-4546-a24b-e1c513da68a7?access_key=PMAT-01HGT7AVZR7992MC6WX7GN8FHT"
   },
   "author": "Kristof Siket",
   "license": "ISC",
