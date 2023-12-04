@@ -184,7 +184,12 @@ import { add } from "..";
 import { describe, it, expect } from "vitest";
 
 // Your unit tests for the add function
+
 ```
+### Visuals
+
+![image](https://github.com/sndr157/BED_Testing/assets/127830026/efd4997b-467b-44be-bfab-70afc10a8b2c)
+
 
 ### Structure
 
